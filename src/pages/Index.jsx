@@ -85,7 +85,7 @@ const Index = () => {
    <p className='mt-3'>Administra tus clientes</p>
    {clientes.length ? (
     <table className='w-full bg-gray-700 shadow mt-5 table-auto'>
-     <thead className='bg-gray-700 text-gray-200'>
+     <thead className='bg-gray-900 text-gray-200'>
       <tr>
        <th className='p-2'>Cliente</th>
        <th className='p-2'>Contacto</th>
