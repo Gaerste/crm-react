@@ -1,0 +1,61 @@
+{
+  "clientes": [
+    {
+      "id": 2,
+      "nombre": "María",
+      "telefono": "987654321",
+      "email": "maria@example.com",
+      "empresa": "Empresa XYZ"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos",
+      "telefono": "5551234567",
+      "email": "carlos@example.com",
+      "empresa": "ABC Company"
+    },
+    {
+      "id": 5,
+      "nombre": "Andrés",
+      "telefono": "1234567890",
+      "email": "andres@example.com",
+      "empresa": "123 Industries"
+    },
+    {
+      "id": 6,
+      "nombre": "Sofía",
+      "telefono": "3456789012",
+      "email": "sofia@example.com",
+      "empresa": "Smith & Co."
+    },
+    {
+      "id": 7,
+      "nombre": "Pedro",
+      "telefono": "6789012345",
+      "email": "pedro@example.com",
+      "empresa": "Johnson Ltd."
+    },
+    {
+      "id": 8,
+      "nombre": "Ana",
+      "telefono": "5678901234",
+      "email": "ana@example.com",
+      "empresa": "Robinson Enterprises"
+    },
+    {
+      "id": 10,
+      "nombre": "Marta",
+      "telefono": "4567890123",
+      "email": "marta@example.com",
+      "empresa": "Brown & Sons"
+    },
+    {
+      "nombre": "jose",
+      "empresa": "gonzalez",
+      "email": "gonzale@gmail.com",
+      "telefono": "66679940",
+      "notas": "Hola buenos dias, me contacto para ser su jefe",
+      "id": 12
+    }
+  ]
+}

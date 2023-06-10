@@ -1,5 +1,6 @@
 const Formulario = ({ cliente }) => {
- return (
+
+    return (
   <>
    <div className='mb-4'>
     <label className='text-white' htmlFor='nombre'>
@@ -11,6 +12,7 @@ const Formulario = ({ cliente }) => {
      className='mt-2 block w-full p-3 bg-gray-50 text-black'
      placeholder='Nombre del Cliente'
      name='nombre'
+     defaultValue={cliente?.nombre}
     />
    </div>
    <div className='mb-4'>
@@ -23,6 +25,7 @@ const Formulario = ({ cliente }) => {
      className='mt-2 block w-full p-3 bg-gray-50 text-black'
      placeholder='Empresa del Cliente'
      name='empresa'
+     defaultValue={cliente?.empresa}
     />
    </div>
 
@@ -36,6 +39,7 @@ const Formulario = ({ cliente }) => {
      className='mt-2 block w-full p-3 bg-gray-50 text-black'
      placeholder='Email del Cliente'
      name='email'
+     defaultValue={cliente?.email}
     />
    </div>
 
@@ -49,6 +53,7 @@ const Formulario = ({ cliente }) => {
      className='mt-2 block w-full p-3 bg-gray-50 text-black'
      placeholder='Teléfono del Cliente'
      name='telefono'
+     defaultValue={cliente?.telefono}
     />
    </div>
 
@@ -63,6 +68,7 @@ const Formulario = ({ cliente }) => {
      className='mt-2 block w-full p-3 bg-gray-50 h-40 align-self text-black'
      placeholder='Notas del Cliente'
      name='notas'
+     defaultValue={cliente?.notas}
     />
    </div>
   </>
